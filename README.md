@@ -4,12 +4,11 @@ Turn any image into a meme
 
 ![](https://github.com/developius/openfaas-mememachine/raw/master/meme.jpg)
 
-# Deploy
+# Getting started
+You can deploy in just one step thanks to the remote yaml feature of the [OpenFaaS CLI](https://github.com/openfaas/faas-cli)!
 
 ```
-$ git clone https://github.com/developius/openfaas-mememachine
-$ cd openfaas-mememachine
-$ faas-cli deploy -f mememachine.yml -e read_timeout=60,write_timeout=60
+$ faas-cli deploy -f https://raw.githubusercontent.com/faas-and-furious/openfaas-mememachine/master/mememachine.yml -e read_timeout=60,write_timeout=60
 ```
 
 # Try it out
