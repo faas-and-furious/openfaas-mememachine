@@ -2,6 +2,8 @@
 
 Turn any image into a meme
 
+![](https://github.com/developius/openfaas-mememachine/raw/master/meme.jpg)
+
 # Deploy
 
 ```
