@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  mememachine:
+    lang: Dockerfile
+    handler: ./mememachine
+    image: developius/faas-mememachine:0.2
